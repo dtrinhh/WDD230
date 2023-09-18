@@ -17,11 +17,18 @@ main h2 section ul {
 }
 
 main section h3 {
-    background: white;
-    border: dotted;
+    background: blue;
+    border: solid;
 }
 
 footer {
     background: blue;
 }
 
+.card1 {
+    background:white;
+}
+
+.card2 {
+    background: white;
+}
