@@ -1,0 +1,27 @@
+header {
+    background: blue;
+}
+
+nav {
+    background: black;
+    font: white;
+}
+
+main h2 {
+    background: white;
+}
+
+main h2 section ul {
+    background: white;
+    border: solid;
+}
+
+main section h3 {
+    background: white;
+    border: dotted;
+}
+
+footer {
+    background: blue;
+}
+
