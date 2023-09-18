@@ -1,34 +1,93 @@
 header {
-    background: blue;
+    background: navy;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-self: center;
+}
+
+
+header h1 {
+    grid-column: 3;
+    color: white;
+    padding-top: 60px;
+    font-family: 'Abril Fatface', cursive;
 }
 
 nav {
     background: black;
-    font: white;
+    color: white;
+    grid-column: 1 / 5;
+    grid-row: 2;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+    grid-column: 2 / 3;
+    padding-left: 70px;
 }
 
 main h2 {
     background: white;
+    border-bottom: solid;
+    border-color: grey;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
 }
 
-main h2 section ul {
-    background: white;
-    border: solid;
+section ul {
+    list-style-type: None;
 }
+
+section p {
+    text-align: center;
+} 
 
 main section h3 {
-    background: blue;
-    border: solid;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
 }
 
 footer {
-    background: blue;
+    background: navy;
+    color: white;
 }
 
 .card1 {
     background:white;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: lightgray;
 }
 
+.card1 h3 {
+    background: navy;
+    color: white;
+}
+
+
 .card2 {
-    background: green;
+    background: white;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: lightgray;
+}
+
+.card2 h3 {
+    background: navy;
+    color: white;
+}
+
+.card2 p {
+    font-family: 'Lora', serif;
 }
