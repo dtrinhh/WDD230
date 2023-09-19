@@ -8,7 +8,6 @@ header {
     margin: 0 auto;
 }
 
-
 header h1 {
     grid-column: 3;
     color: white;
@@ -112,3 +111,5 @@ footer {
 .card2 p {
     font-family: 'Lora', serif;
 }
+
+/* Test */
