@@ -16,29 +16,23 @@ header h1 {
     font-family: 'Abril Fatface', cursive;
 }
 
-nav {
+header nav {
+    display: flex;
     background: black;
     color: white;
     grid-column: 1 / 5;
     grid-row: 2;
-    width: 100%;
-    margin: 0 auto;
-}
-
-nav ul {
-    list-style-type: none;
     text-align: center;
+    flex-direction: column;
     font-family: 'Lora', serif;
     font-size: 20px;
+    padding-top: 30px;
 }
 
-nav ul li {
+nav a {
     margin-bottom: 30px;
-}
-
-a {
     text-decoration: none;
-}
+} 
 
 img {
     width: 150px;
