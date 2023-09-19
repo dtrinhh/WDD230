@@ -40,7 +40,7 @@
         <h3>Learning Activities</h3>
         <ul>
           <li>Lesson 01: <a href="lesson01/holygrail.html" > Holy Grail Layout </a></li>
-          <li>Lesson 02: <a href="lesson01/holygrail.html" > Applied JavaScript</a> </li>
+          <li>Lesson 02: <a href="https://codepen.io/dtrinhh/pen/jOXaPpW" > Applied JavaScript</a> </li>
           <li>Lesson 03: </li>
           <li>Lesson 04: </li>
           <li>Lesson 05: </li>
@@ -58,10 +58,13 @@
     </main>
     <footer>
       <p>
-        The copyright symbol and current year where the year will be dynamically
-        populated using JavaScript code. Dustin Trinh | Utah
+        &copy;<span id="currentyear"></span> Dustin Trinh | Utah | <span id="currentdate"></span>
       </p>
-      <p class="lastModifed"></p>
+
+      <p class="lastModifed">
+        <span id="lastmodified"></span>
+      </p>
     </footer>
+    <script src="scripts/getdates.js"></script>
   </body>
 </html>
