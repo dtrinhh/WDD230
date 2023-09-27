@@ -31,7 +31,6 @@ header nav {
 nav a {
     margin-bottom: 30px;
     text-decoration: none;
-    /* color: #00c8f0; */
 } 
 
 a {
@@ -123,5 +122,3 @@ footer {
 .card2 p {
     font-family: 'Lora', serif;
 }
-
-/* Test */
