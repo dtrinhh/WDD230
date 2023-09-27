@@ -31,7 +31,20 @@ header nav {
 nav a {
     margin-bottom: 30px;
     text-decoration: none;
+    /* color: #00c8f0; */
 } 
+
+a {
+    color:#00c8f0;
+}
+
+a:visited {
+    color: #5d891a;
+}
+
+a:hover {
+    color: #1a893b;
+}
 
 img {
     width: 150px;
