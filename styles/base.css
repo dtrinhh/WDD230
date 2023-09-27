@@ -34,17 +34,16 @@ nav a {
 } 
 
 a {
-    /* color:#00c8f0; */
-    color: #757575;
+    color: #0077cc;
 }
 
 a:visited {
     /* color: #00f03c; */
-    color: #836e8c;
+    color: #9955cc;
 }
 
 a:hover {
-    color: #1a893b;
+    color: #757575;
 }
 
 img {
