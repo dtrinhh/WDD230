@@ -3,7 +3,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    align-self: center;
+    align-items: center;
     width: 80%;
     margin: 0 auto;
 }
@@ -11,8 +11,9 @@ header {
 header h1 {
     grid-column: 3;
     color: white;
-    padding-top: 105px;
+    /* padding-top: 50px; */
     font-family: 'Abril Fatface', cursive;
+    margin: 0 auto;
 }
 
 header nav {
@@ -26,6 +27,7 @@ header nav {
     font-family: 'Lora', serif;
     font-size: 20px;
     padding-top: 30px;
+    
 }
 
 nav a {
@@ -49,8 +51,7 @@ img {
     width: 150px;
     height: 200px;
     grid-column: 2 / 3;
-    padding-left: 70px;
-    padding-top: 45px;
+    padding: 0 30px 0 0;
 }
 
 main{
@@ -89,36 +90,40 @@ footer {
 
 .card1 {
     background:white;
-    border-left: solid;
-    border-right: solid;
-    border-bottom: solid;
+    /* border: solid;
     border-width: thin;
-    border-color: lightgray;
+    border-color: lightgray; */
+    box-shadow: 0px 0px 5px 5px lightgray;
 }
 
 .card1 ul {
-    font-family: 'Lora', serif
+    font-family: 'Lora', serif;
+    padding-bottom: 20px;
 }
 
 .card1 h3 {
     background: navy;
     color: white;
+    line-height: 2;
+    margin-top: 0;
 }
 
 .card2 {
     background: white;
-    border-left: solid;
-    border-right: solid;
-    border-bottom: solid;
+    /* border: groove;
     border-width: thin;
-    border-color: lightgray;
+    border-color: lightgray; */
+    box-shadow: 0px 0px 5px 5px lightgray;
 }
 
 .card2 h3 {
     background: navy;
     color: white;
+    line-height: 2;
+    margin-top: 0;
 }
 
 .card2 p {
     font-family: 'Lora', serif;
+    padding-bottom: 20px;
 }
