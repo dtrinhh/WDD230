@@ -1,0 +1,89 @@
+header {
+    background: #33501D;
+    color: #000000;
+}
+
+body {
+    background: #DEDEDE;
+    color: #FFFFFF;
+}
+
+footer {
+    background: #33501D;
+    color: #000000;
+}
+
+.purpose {
+    background: #78050A;
+}
+
+.scenarios {
+    background: #78050A;
+}
+.colors {
+    background: #FFFFFF;
+    color: #000000;
+}
+.fonts {
+    background: #78050A;
+}
+.wireframe {
+    background: #78050A;
+}
+.maincolor {
+    background: #33501D;
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding: 0;
+}
+.secondarycolor {
+    background: #78050A;
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding: 0;
+}
+.tertiarycolor {
+    background: #DEDEDE;
+    margin: 0 auto;
+    padding: 0;
+}
+.fontcolor1 {
+    background: #FFFFFF;
+    margin: 0 auto;
+    padding: 0;
+}
+.fontcolor2 {
+    background: #000000;
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding: 0;
+}
+.headernavfont {
+    font-family: "Roboto Slab", serif;
+    margin: 0 auto;
+    padding: 0;
+}
+.headingsfont {
+    font-family: "Inter", sans-serif;
+    margin: auto 0;
+    padding: 0;
+}
+.paragraphfont {
+    font-family: "Gabarito", cursive;
+    margin: 0 auto;
+    padding: 0;
+}
+.mobilewireframe {
+    height: 500px;
+    width: 300px;
+}
+.largewireframe {
+    height: 500px;
+    width: 400px;
+}
+
+
+/* Font Families
+font-family: 'Gabarito', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto Slab', serif; */
