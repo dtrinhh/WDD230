@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER SETTINGS */
+header {
+    background:#33501D;
+    color: #FFFFFF;
+
+}
+
+/* NAV SETTINGS */
+
+nav {
+    background: #33501D;
+    color: #FFFFFF;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+    text-decoration: none;
+    list-style-type: none;
+} 
+
+.home {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.discover {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+.directory {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+}
+
+.join {
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+}
+
+.test {
+      grid-column: 5 / 6;
+      grid-row: 1 / 3;
+}
+
+li a {
+    display: grid;
+    color: #FFFFFF;
+    text-decoration: none;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+/* NOT SURE IF I'LL NEED THIS LATER CAUSE I DON'T WANT DIFFERENCIATING COLORS FOR VISITED/UNVISITED RIGHT NOW */
+/* 
+a:link {
+    color: white;
+}
+a:visited {
+    color: pink;
+} */
+
+li a:hover {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+a:active {
+    color: pink;
+}
+
+/* MAIN SETTINGS */
+main {
+    background: #78050a;
+    color: #FFFFFF;
+}
+
+.scrollingflexbox1 {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 1em;
+}
+
+.scrollingheader1 {
+    position: sticky;
+    background-color: #78050a;
+    padding-left: 1em;
+    padding-top: 10px;
+    height: auto;
+    width: auto;
+}
+
+.scrollingflexbox2 {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 1em;
+}
+
+.scrollingheader2 {
+    position: sticky;
+    background-color: #78050a;
+    padding-left: 1em;
+    padding-top: 10px;
+    height: auto;
+    width: auto;
+}
+.scrollingflexbox3 {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 1em;
+}
+
+.scrollingheader3 {
+    position: sticky;
+    background-color: #78050a;
+    padding-left: 1em;
+    padding-top: 10px;
+    height: auto;
+    width: auto;
+}
+
+.card {
+    flex: 0 0 auto;
+    height: 300px;
+    width: 300px;
+    border: 3px solid #000000;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+/* HERO IMAGE SETTINGS */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 60vh;
+}
+
+.hero h1 {
+    font-size: 5em;
+    margin-bottom: 0.2em;
+}
+
+.hero h2 {
+    padding-bottom: 1em;
+}
+
+.getstartedbtn {
+    display: block;
+    width: 200px;
+    border:3px solid #000000;
+    padding: 1em;
+    /* margin-left: 30em;
+    margin-top: 15px; */
+    margin: auto;
+}
+
+
+
+/* FOOTER SETTINGS */
+footer {
+    background: #33501D;
+    color: #FFFFFF;
+}
+
+
+/* COLOR SCHEMA
+Main Color = #33501D (Used for Header & Footer)
+
+Secondary Color = #78050A (Used for accents like Paragraph background colors)
+
+Tertiary Color = #DEDEDE (Used for background color)
+
+Font Color = #FFFFFF (Used for font on the main and secondary colors)
+
+Font Color = #000000 (Used for all font on the tertiary colors) */
+
+
+/* TYPOGRAPHY SET
+Header and Nav Font: Roboto Slab
+
+Example of Roboto Slab Font
+
+Headings Font: Inter
+
+Example of Inter Font
+
+Paragraph Font: Gabarito
+
+Example of Gabarito Font */
