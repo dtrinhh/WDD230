@@ -14,7 +14,6 @@
     <link href="styles/base.css" rel="stylesheet" >
     <link href="styles/medium.css" rel="stylesheet" >
     <link href="styles/large.css" rel="stylesheet" >
-    <link href="styles/base.css" rel="stylesheet" >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Inter:wght@300&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
@@ -22,17 +21,24 @@
     <title>Rose City Chamber of Commerce Homepage</title>
 </head>
 <body>
-    <header>
+    <!-- <header>
         Rose City Chamber of commerce logo may <br> go around here or go inline with the Nav
-    </header>
-    <nav class="nav">
-        <ul>
-            <li class="home"><a href="#">Home</a></li>
-            <li class="discover"><a href="#">Discover</a></li>
-            <li class="directory"><a href="#">Directory</a></li>
-            <li class="join"><a href="#">Join</a></li>
-            <li class="test"><a href="images/favicon.ico">Test</a></li>
-        </ul>
+    </header> -->
+    <nav class="navbar">  
+        <div class="homelogo"><a href="#">Home Logo</a></div> 
+        <a href="#" class="hamburgerbtn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navlinks">    
+            <ul>
+                <li class="discover"><a href="#">Discover</a></li>
+                <li class="directory"><a href="#">Directory</a></li>
+                <li class="join"><a href="#">Join</a></li>
+                <li class="test"><a href="images/favicon.ico">Test</a></li>
+            </ul>
+        </div>
     </nav>
     <section class="hero">
         <div class="hero-inner">
@@ -42,69 +48,77 @@
         </div>
     </section>
     <main>
-        <h2 class="scrollingheader1">Current Events</h2>
-        <div class="scrollingflexbox1">
-            <div class="card"> Will be name and date of the event </div>
-            <div class="card"> Event 1 </div>
-            <div class="card"> Event 2 </div>
-            <div class="card"> Event 3 </div>
-            <div class="card"> Event 4 </div>
-            <div class="card"> Event 5 </div>
-            <div class="card"> Event 6 </div>
-            <div class="card"> Event 7 </div>
-            <div class="card"> Event 8 </div>
-            <div class="card"> Event 9 </div>
-            <div class="card"> Event 10 </div>
-            <div class="card"> Event 11 </div>
-            <div class="card"> Event 12 </div>
-            <div class="card"> Event 13 </div>
-            <div class="card"> Event 14 </div>
+        <div class="scrollingcontainer">
+            <h2 class="scrollingheader1">Current Events</h2>
+            <div class="scrollingflexbox1">
+                <div class="card"> Will be name and date of the event </div>
+                <div class="card"> Event 1 </div>
+                <div class="card"> Event 2 </div>
+                <div class="card"> Event 3 </div>
+                <div class="card"> Event 4 </div>
+                <div class="card"> Event 5 </div>
+                <div class="card"> Event 6 </div>
+                <div class="card"> Event 7 </div>
+                <div class="card"> Event 8 </div>
+                <div class="card"> Event 9 </div>
+                <div class="card"> Event 10 </div>
+                <div class="card"> Event 11 </div>
+                <div class="card"> Event 12 </div>
+                <div class="card"> Event 13 </div>
+                <div class="card"> Event 14 </div>
+            </div>
         </div>
-        <h2 class="scrollingheader2">Businesses of the Week</h2>
-        <div class="scrollingflexbox2">
-            <div class="card"> Will be name and pictures of business </div>
-            <div class="card"> Business 1 </div>
-            <div class="card"> Business 2 </div>
-            <div class="card"> Business 3 </div>
-            <div class="card"> Business 4 </div>
-            <div class="card"> Business 5 </div>
-            <div class="card"> Business 6 </div>
-            <div class="card"> Business 7 </div>
-            <div class="card"> Business 8 </div>
-            <div class="card"> Business 9 </div>
-            <div class="card"> Business 10 </div>
-            <div class="card"> Business 11 </div>
-            <div class="card"> Business 12 </div>
-            <div class="card"> Business 13 </div>
-            <div class="card"> Business 14 </div>
+        <div class="scrollingcontainer">
+            <h2 class="scrollingheader2">Businesses of the Week</h2>
+            <div class="scrollingflexbox2">
+                <div class="card"> Will be name and pictures of business </div>
+                <div class="card"> Business 1 </div>
+                <div class="card"> Business 2 </div>
+                <div class="card"> Business 3 </div>
+                <div class="card"> Business 4 </div>
+                <div class="card"> Business 5 </div>
+                <div class="card"> Business 6 </div>
+                <div class="card"> Business 7 </div>
+                <div class="card"> Business 8 </div>
+                <div class="card"> Business 9 </div>
+                <div class="card"> Business 10 </div>
+                <div class="card"> Business 11 </div>
+                <div class="card"> Business 12 </div>
+                <div class="card"> Business 13 </div>
+                <div class="card"> Business 14 </div>
+            </div>
         </div>
-        <h2 class="scrollingheader3">Local Food Favorites</h2>
-        <div class="scrollingflexbox3">
-            <div class="card"> Will be name and pictures of restaurant </div>
-            <div class="card"> Restaurant 1 </div>
-            <div class="card"> Restaurant 2 </div>
-            <div class="card"> Restaurant 3 </div>
-            <div class="card"> Restaurant 4 </div>
-            <div class="card"> Restaurant 5 </div>
-            <div class="card"> Restaurant 6 </div>
-            <div class="card"> Restaurant 7 </div>
-            <div class="card"> Restaurant 8 </div>
-            <div class="card"> Restaurant 9 </div>
-            <div class="card"> Restaurant 10 </div>
-            <div class="card"> Restaurant 11 </div>
-            <div class="card"> Restaurant 12 </div>
-            <div class="card"> Restaurant 13 </div>
-            <div class="card"> Restaurant 14 </div>
+        <div class="scrollingcontainer">
+            <h2 class="scrollingheader3">Local Food Favorites</h2>
+            <div class="scrollingflexbox3">
+                <div class="card"> Will be name and pictures of restaurant </div>
+                <div class="card"> Restaurant 1 </div>
+                <div class="card"> Restaurant 2 </div>
+                <div class="card"> Restaurant 3 </div>
+                <div class="card"> Restaurant 4 </div>
+                <div class="card"> Restaurant 5 </div>
+                <div class="card"> Restaurant 6 </div>
+                <div class="card"> Restaurant 7 </div>
+                <div class="card"> Restaurant 8 </div>
+                <div class="card"> Restaurant 9 </div>
+                <div class="card"> Restaurant 10 </div>
+                <div class="card"> Restaurant 11 </div>
+                <div class="card"> Restaurant 12 </div>
+                <div class="card"> Restaurant 13 </div>
+                <div class="card"> Restaurant 14 </div>
+            </div>
         </div>
-        <h2 class="scrollingheader4">PDX Weather of the week</h2>
-        <div class="scrollingflexbox4">
-            <div class="card"> Sunday </div>
-            <div class="card"> Monday </div>
-            <div class="card"> Tuesday </div>
-            <div class="card"> Wednesday </div>
-            <div class="card"> Thursday </div>
-            <div class="card"> Friday </div>
-            <div class="card"> Saturday </div>
+        <div class="scrollingcontainer">
+            <h2 class="scrollingheader4">PDX Weather of the week</h2>
+            <div class="scrollingflexbox4">
+                <div class="card"> Sunday </div>
+                <div class="card"> Monday </div>
+                <div class="card"> Tuesday </div>
+                <div class="card"> Wednesday </div>
+                <div class="card"> Thursday </div>
+                <div class="card"> Friday </div>
+                <div class="card"> Saturday </div>
+            </div>
         </div>
     </main>
     <footer>
@@ -113,5 +127,6 @@
         </p>
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburgerbtn.js"></script>
 </body>
 </html>
