@@ -213,29 +213,3 @@ footer {
     padding: 3em;
     text-align: center;
 }
-
-
-/* COLOR SCHEMA
-Main Color = #33501D (Used for Header & Footer)
-
-Secondary Color = #78050A (Used for accents like Paragraph background colors)
-
-Tertiary Color = #DEDEDE (Used for background color)
-
-Font Color = #FFFFFF (Used for font on the main and secondary colors)
-
-Font Color = #000000 (Used for all font on the tertiary colors) */
-
-
-/* TYPOGRAPHY SET
-Header and Nav Font: Roboto Slab
-
-Example of Roboto Slab Font
-
-Headings Font: Inter
-
-Example of Inter Font
-
-Paragraph Font: Gabarito
-
-Example of Gabarito Font */
