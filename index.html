@@ -27,7 +27,7 @@
   </head>
   <body>
     <header>
-      <img
+      <img class="meimage"
         src="images/angels-landing-hike.webp"
         alt="Angels Landing In Zion National Park"
       >
@@ -47,7 +47,14 @@
       </nav>
     </header>
     <main>
-      <picture href="images/portlandtemple.webp"></picture>
+      <!-- <picture>
+        <img class="portlandtemples" srcset="images/portlandtemple2.webp 400w, images/portlandtemple.webp 1280w" sizes="(max-width: 600px) 480px, 1280px"  alt="Portland Temple"/>
+      </picture> -->
+      <picture class="heroimage">
+        <source media="(max-width: 480px)" srcset="images/portlandtemple2.webp 400w" />
+        <source media="(min-width: 481px)" srcset="images/portlandtemple.webp 1200w" />
+        <img srcset="images/angels-landing-hike" alt="Portland Temple"/>
+      </picture>
       <h2>WDD 230: Web Frontend Development</h2>
       <section class="card1">
         <h3>Learning Activities</h3>
