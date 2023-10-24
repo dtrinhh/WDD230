@@ -1,10 +1,16 @@
 @media screen and (min-width: 480px) {
-    body header nav {
+    /* body header nav {
         display: flex;
         flex-direction: row;
         height: fit-content;
+        vertical-align: bottom;
     }
-
+    
+    .nav {
+        display: flex;
+        flex-direction: row;
+    }
+    
     body header nav a {
         flex-grow: 1;
     }
@@ -16,8 +22,6 @@
 
     body header img {
         padding: 30px 30px 30px 0;
-        justify-content: center;
-        align-self: center;
     }
 
     body header h1 {
@@ -49,8 +53,38 @@
     
     .card1 ul {
         padding: 0 10px 0 40px;
+    } */
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        left: 0;
+        top: 316px;
+        justify-content: space-evenly;
+        width: 100%;
     }
-    #menu {
-        display: none;
+
+    .heroimage {
+        /* max-width: 100%;
+        height: auto; */
+        /* margin: 1rem .5rem 2rem .5rem;*/
+        padding: 1rem .5rem 2rem .5rem;
     }
+
+    /* .heroimage source {
+        width: 100%;
+        height: auto;
+    } */
+
+    /* .meimage {
+        margin-top: 10px;
+    } */
+
+    /* body header h1 {
+        align-self: center;
+    } */
+
+
+
 }
