@@ -65,26 +65,21 @@
         width: 100%;
     }
 
-    .heroimage {
-        /* max-width: 100%;
-        height: auto; */
-        /* margin: 1rem .5rem 2rem .5rem;*/
-        padding: 1rem .5rem 2rem .5rem;
+    img {
+        padding: 0 0 2rem 0;
+        width: 100vw;
+        /* height: auto; */
     }
 
-    /* .heroimage source {
-        width: 100%;
-        height: auto;
-    } */
+    section {
+        display: inline-grid;
+    }
 
-    /* .meimage {
-        margin-top: 10px;
-    } */
+    .card1 ul {
+        padding-right: 5px;
+    }
 
-    /* body header h1 {
-        align-self: center;
-    } */
-
-
-
+    .card2 p {
+        padding: 0 5px;
+    }
 }
