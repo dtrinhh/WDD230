@@ -82,4 +82,13 @@
     .card2 p {
         padding: 0 5px;
     }
+
+    .card1 {
+        width: 60vw;
+    }
+    .card2 {
+        width: 35vw;
+    }
+
+
 }

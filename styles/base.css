@@ -97,7 +97,7 @@ footer {
 .card1 {
     background:white;
     box-shadow: 0px 0px 5px 5px lightgray;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     margin: 1rem .5rem 2rem .5rem;
 }
 
@@ -130,4 +130,8 @@ footer {
     font-family: 'Lora', serif;
     padding-bottom: 20px;
 }
+
+/* iframe {
+    margin: 1rem .5rem 2rem .5rem;
+} */
 
