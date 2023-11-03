@@ -1,0 +1,32 @@
+table, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+    justify-content: center;
+}
+
+thead {
+    background-color: #0d6268;
+    color: #FFF;
+}
+
+thead td {
+    border: thin solid #000;
+    border-collapse: collapse;
+    background-color: #0a6632;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: smaller;
+}
+
+.filler {
+    background-color: #0d6268;
+    color: #0d6268;
+    border: #000;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ecdada;
+}
