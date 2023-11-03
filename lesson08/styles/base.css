@@ -1,3 +1,7 @@
+table {
+    margin: 5rem auto;
+}
+
 table, td {
     border: 1px solid #000;
     border-collapse: collapse;
@@ -19,6 +23,7 @@ thead td {
 caption {
     caption-side: bottom;
     font-size: smaller;
+    color: #0a6632;
 }
 
 .filler {
