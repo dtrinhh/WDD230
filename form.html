@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Dustin Trinh's WDD230 Homepage Form Build">
+    <meta name="author" content="Dustin Trinh">
+    <!-- <meta property="og:title" content="Rose City Chamber of Commerce Homepage">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://unsplash.com/photos/k0VeQ6sXHGg">
+    <meta property="og:url" content="https://dtrinhh.github.io/wdd230/chamber/"> -->
+    <link href="styles/form.css" rel="stylesheet" >
+    <!-- <link href="styles/medium.css" rel="stylesheet" >
+    <link href="styles/large.css" rel="stylesheet" >
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Inter:wght@300&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico"> -->
+    <title>Rose City Chamber of Commerce Homepage</title>
+</head>
+<body>
+
+<header>
+
+</header>
+
+<main>
+    <form action="record.html" method="get">
+    <h1>Create Account and Rate our Site</h1>
+    <div id="nomatch"></div>
+    <fieldset>
+        <legend>Username</legend>
+        <label class="username"><input type="text" id="username" name="username" required></label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Password</legend>
+        <label class="password"><input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}" title="simple 8 or more characters" placeholder="Minimum of 8 Characters" required></label>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Re-enter Password</legend>
+        <label class="confirmpassword"><input type="password" id="confirmpassword" name="confirmpassword" required></label>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Email</legend>
+        <label class="email"><input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid school email address" placeholder="Johndoe@byui.edu"></label>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Page Rating</legend>
+        <div id="rangevalue">5</div>
+        <label class="rating">
+            <input type="range" id="range" name="range" min="0" max="10" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+        </label>
+    </fieldset>
+    <input type="submit" value="Create Account" class="submitbtn">
+    </form>
+</main>
+
+<footer>
+</footer>
+<script src="scripts/form.js"></script>
+</body>
+</html>
