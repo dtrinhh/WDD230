@@ -82,10 +82,6 @@ p {
 }
 
 /* MAIN SETTINGS */
-/* source {
-
-} */
-
 .scrollingcontainer {
     padding-bottom: 40px;
 }
@@ -205,6 +201,90 @@ p {
     /* margin-left: 30em;
     margin-top: 15px; */
     margin: auto;
+}
+
+.discovercontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.greeting {
+    border: 1px solid red;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.demographics {
+    border: 1px solid red;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.statistical {
+    border: 1px solid red;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.attractions {
+    border: 1px solid red;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+.events {
+    border: 1px solid red;
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+
+.calendar {
+    border: 1px solid red;
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+
+/* INIDIVIDUAL IMG POSITION CONTROL
+.img1 {
+    border: 1px solid red;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.img2 {
+    border: 1px solid red;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.img3 {
+    border: 1px solid red;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.img4 {
+    border: 1px solid red;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.img5 {
+    border: 1px solid red;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+.img6 {
+    border: 1px solid red;
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+} */
+
+.discoverimg {
+    grid-column: 2 / 3;
+    grid-row: 1/ 7;
+    border: 1px solid blue;
+}
+.discoverimg :hover {
+    border: 1px solid blue;
+    box-shadow: 0 0 50px #000000;
 }
 
 
