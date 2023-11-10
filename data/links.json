@@ -1,0 +1,68 @@
+{
+    "lessons" : [
+    {
+        "lesson" : "02",
+        "links" : [
+            {
+                "url" : "lesson02/design.html",
+                "title" : "Web Design Principles"   
+            },
+            {
+                "url" : "lesson02/media-query.html",
+                "title" : "CSS Media Queries"   
+            },
+            {
+                "url" : "lesson03/chamber-site-plan.html",
+                "title" : "Combinator Exercise"   
+            },
+            {
+                "url" : "lesson03/images/coombinatorspractice.png",
+                "title" : "Combinator Exercise"   
+            },
+            {
+                "url" : "https://codepen.io/dtrinhh/pen/MWZqeGL",
+                "title" : "CSS Pseudo Elements"   
+            },
+            {
+                "url" : "https://codepen.io/dtrinhh/pen/QWzVKme",
+                "title" : "Hamburger Menu"   
+            },
+            {
+                "url" : "https://codepen.io/dtrinhh/pen/eYbxZGY",
+                "title" : "Pseudo Classes"   
+            },
+            {
+                "url" : "lesson05/bom.html",
+                "title" : "BOM Fav Chapters"   
+            },
+            {
+                "url" : "lesson06/images/landscape.webp",
+                "title" : "WebP"   
+            },
+            {
+                "url" : "lesson03/lazyload.html",
+                "title" : "Lazy Loading"   
+            },
+            {
+                "url" : "lesson08/tablebuild/html",
+                "title" : "HTML Datatable"   
+            },
+            {
+                "url" : "lesson08/form-start/",
+                "title" : "HTML Forms"    
+            },
+            {
+                "url" : "form.html",
+                "title" : "Form Build"   
+            },
+            {
+                "url" : "lesson09/new-ward-members.json",
+                "title" : "JSON"      
+            },
+            {
+                "url" : "lesson10/weather.html",
+                "title" : "Weather"   
+            }
+        ] 
+    }
+]}
