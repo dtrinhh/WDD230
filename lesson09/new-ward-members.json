@@ -1,0 +1,23 @@
+{
+    "familyname" : "Trinh",
+    "moveindate" : "11/09/2023",
+    "familycount" : 7,
+    "bishopedvisited" : true,
+    "familymembers" :  [
+        {
+            "name" : "D",
+            "gender" : "Male",
+            "birthday" : "04/07/1997"
+        },
+        {
+            "name" : "E",
+            "gender" : "Female",
+            "birthday" : "01/01/1997"
+        },
+        {
+            "name" : "K",
+            "gender" : "Male",
+            "birthday" : "01/01/1997"
+        }
+    ]  
+}
