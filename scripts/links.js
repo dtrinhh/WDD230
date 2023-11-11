@@ -23,7 +23,6 @@ function populatelinks(obj) {
 
     for (const lesson of lessons) {
         const orderedli = document.createElement("li");
-        // const alinks = document.createElement("a");
 
         orderedli.textContent = `Week ${lesson.lesson}: `;
 
@@ -33,24 +32,14 @@ function populatelinks(obj) {
             alinks.textContent = `${link.title}`;
             alinks.href = link.url;
             orderedli.append(alinks);
-            const space = " | ";
-            orderedli.append(space);
+            const divider = " | ";
+            orderedli.append(divider);
         }
 
         card1.appendChild(unorderedli);
         unorderedli.appendChild(orderedli);
         
-        
-
-        // unorderedli.textContent = link.lesson;
-        // activities.appendChild(unorderedli); 
-        // unorderedli.textContent = link.title;
-        // activities.appendChild(unorderedli); 
     }
 }
-    // activities.appendChild(unorderedli); 
-    
-    // orderedli.textContent = links.title;
-    // unorderedli.appendChild(orderedli);
 
 getlinks();
