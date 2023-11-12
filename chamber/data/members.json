@@ -1,11 +1,12 @@
 {
+    "dirheader" : "Directory",
+    "orgheader" : "Organization",
+    "levelheader" : "Memberhsip Level",
+    "categoryheader" : "Category",
+    "contactheader" : "Contact",
+    "locationheader" : "Location",
     "directory" : [
-        {
-        "dirheader" : "Directory",
-        "orgheader" : "Organization",
-        "categoryheader" : "Category",
-        "contactheader" : "Contact",
-        "locationheader" : "Location",
+        { 
         "organization" : [
             {
                 "url" : "#",
