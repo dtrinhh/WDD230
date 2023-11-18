@@ -11,7 +11,7 @@ async function apiFetch() {
             const data = await response.json();
             console.log(data);
             displayResults(data); 
-            capitalize(data);
+            // capitalize(data);
         } 
         else {
             throw Error(await response.text());
@@ -32,15 +32,15 @@ function displayResults(data) {
 }
     
     // Capitalize Each Word in "Desc"
-function capitalize(data) {
-    const weatherdescription = data.weather[0].description;
-    const firstletter = weatherdescription.charAt(0);
+// function capitalize(data) {
+//     const weatherdescription = data.weather[0].description;
+//     const firstletter = weatherdescription.charAt(0);
     
 
 
-    console.log(weatherdescription);
-    console.log(firstletter);
+//     console.log(weatherdescription);
+//     console.log(firstletter);
 
-}
+// }
 
 apiFetch();
