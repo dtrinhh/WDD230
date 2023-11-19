@@ -135,6 +135,21 @@ footer {
     padding-bottom: 20px;
 }
 
+.weather.desc{
+    padding-bottom: 10px;
+}
+
+.weathericon {
+    max-width: 125px;
+    max-height: 125px;
+    margin: 0 auto;
+}
+
+.currenttemp {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
 iframe {
     /* margin: 1rem .5rem 2rem .5rem; */
     width: 100%; 
