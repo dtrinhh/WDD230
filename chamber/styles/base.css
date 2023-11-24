@@ -291,6 +291,186 @@ p {
 /* DIRECTORY CSS */
 
 
+/* WEATHER CARD SETTINGS */
+
+/* CURRENT DAY WEATHER SETTINGS */
+
+.dayoneforecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* gap: 5px 20px; */
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    height: 300px;
+    width: 300px;
+    border: 3px solid #FFFFFF;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.currentday {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.weathericon {
+    max-width: 125px;
+    max-height: 125px;
+    padding: 0;
+    grid-column: 1 / 3;
+    grid-row: 2;
+    justify-self: center;
+}
+
+.weatherdesc {
+    padding-bottom: 10px;
+    grid-column: 1/ 3;
+    grid-row: 3;
+}
+
+.currentlowtemp {
+    align-self: start;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.currenthightemp {
+    align-self: start;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+/* DAY TWO WEATHER SETTINGS */
+.daytwoforecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* gap: 5px 20px; */
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    height: 300px;
+    width: 300px;
+    border: 3px solid #FFFFFF;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.tomorrowsweather {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.daytwoweathericon {
+    max-width: 125px;
+    max-height: 125px;
+    padding: 0;
+    grid-column: 1 / 3;
+    grid-row: 2;
+    justify-self: center;
+    
+}
+
+.daytwoweatherdesc {
+    padding-bottom: 10px;
+    grid-column: 1/ 3;
+    grid-row: 3;
+}
+
+.daytwolowtemp {
+    align-self: start;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.daytwohightemp {
+    align-self: start;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+/* DAY THREE WEATHER SETTINGS */
+.daythreeforecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* gap: 5px 20px; */
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    height: 300px;
+    width: 300px;
+    border: 3px solid #FFFFFF;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.twodaysawaysweather {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.daythreeweathericon {
+    max-width: 125px;
+    max-height: 125px;
+    padding: 0;
+    grid-column: 1 / 3;
+    grid-row: 2;
+    justify-self: center;
+}
+
+.daythreeweatherdesc {
+    padding-bottom: 10px;
+    grid-column: 1/ 3;
+    grid-row: 3;
+}
+
+.daythreelowtemp {
+    align-self: start;
+    grid-column: 1;
+    grid-row: 4;
+}
+.daythreehightemp {
+    align-self: start;
+    grid-column: 2;
+    grid-row: 4;
+} 
+
+/* BANNER SETTINGS */
+.banner {
+    display: none;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: x-large;
+    z-index: 1;
+  }
+
+  .closebanner {
+    /* position: absolute;
+    top: 36px;
+    right: 40px; */
+    position: fixed;
+    left: 30px;
+    color: white;
+    cursor: pointer;
+  }
 
 /* FOOTER SETTINGS */
 footer {

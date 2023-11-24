@@ -22,6 +22,11 @@
     <title>Rose City Chamber of Commerce Homepage</title>
 </head>
 <body>
+    <div class="banner">
+        <span class="closebanner" onclick="closebanner()">𝗫</span>
+        <br>
+        <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</p>
+    </div>
     <!-- <header>
         Rose City Chamber of commerce logo may <br> go around here or go inline with the Nav
     </header> -->
@@ -112,13 +117,31 @@
         <div class="scrollingcontainer">
             <h2 class="scrollingheader4">PDX Weather of the week</h2>
             <div class="scrollingflexbox4">
-                <div class="card"> Sunday </div>
-                <div class="card"> Monday </div>
-                <div class="card"> Tuesday </div>
-                <div class="card"> Wednesday </div>
-                <div class="card"> Thursday </div>
-                <div class="card"> Friday </div>
-                <div class="card"> Saturday </div>
+                
+                <div class="dayoneforecast">
+                    <p class="currentday">Todays Weather</p>
+                    <img class="weathericon" src="" alt="weather image">
+                    <p class="weatherdesc"></p>
+                    <p class="currentlowtemp"></p>
+                    <p class="currenthightemp"></p>
+                </div>
+
+                <div class="daytwoforecast">
+                    <p class="tomorrowsweather">Tommorrows Weather</p>
+                    <img class="daytwoweathericon" src="" alt="weather image">
+                    <p class="daytwoweatherdesc"></p>
+                    <p class="daytwolowtemp"></p>
+                    <p class="daytwohightemp"></p>
+                </div>
+
+                <div class="daythreeforecast"> 
+                    <p class="twodaysawaysweather">Two Days Away Weather</p>
+                <img class="daythreeweathericon" src="" alt="weather image">
+                <p class="daythreeweatherdesc"></p>
+                <p class="daythreelowtemp"></p>
+                <p class="daythreehightemp"></p>
+                </div>
+                
             </div>
         </div>
     </main>
@@ -127,6 +150,8 @@
             Dustin Trinh | Contact us at notarealemail@rosecitycc.com | Chamber of Commerce Project for WDD 230 at BYUI | Last modified:<span id="lastmodified"></span>  
         </p>
     </footer>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/meetandgreet.js"></script>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburgerbtn.js"></script>
 </body>

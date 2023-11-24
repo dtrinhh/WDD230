@@ -11,8 +11,11 @@ header {
 header h1 {
     grid-column: 3 / 4;
     color: white;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Abril Fatface';
     margin: 0 auto;
+    position: relative;
+    top: 4rem;
+    right: 6rem;
 }
 
 header nav {
@@ -61,8 +64,12 @@ a:hover {
 .meimage {
     width: 150px;
     height: 200px;
-    grid-column: 2 / 3;
+    grid-column: 2;
+    /* grid-row: 1; */
     padding: 0 30px 0 0;
+    position: relative;
+    top: 3.5rem;
+    left: 10rem;
 }
 
 main{
@@ -75,7 +82,7 @@ main h2 {
     border-bottom: solid;
     border-color: grey;
     text-align: center;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Abril Fatface';
     margin: 2rem .5rem 1rem .5rem;
 }
 
@@ -89,7 +96,7 @@ section p {
 
 main section h3 {
     text-align: center;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Abril Fatface';
 }
 
 footer {
