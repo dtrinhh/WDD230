@@ -318,6 +318,15 @@ p {
     grid-row: 1;
 }
 
+.daytwoname {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+.daythreename {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
 .weathericon {
     max-width: 125px;
     max-height: 125px;
@@ -467,6 +476,7 @@ p {
     top: 36px;
     right: 40px; */
     position: fixed;
+    top: 5px;
     left: 30px;
     color: white;
     cursor: pointer;
