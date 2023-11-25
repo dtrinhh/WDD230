@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
 // SIMULATE DIFFERENT DATE
-const sim_date = new Date("November 20, 2023 11:13:00");
+// const sim_date = new Date("November 20, 2023 11:13:00");
 
-  //overriding date function
-Date = function(){return sim_date;};
-const new_date = new Date();
+//   //overriding date function
+// Date = function(){return sim_date;};
+// const new_date = new Date();
