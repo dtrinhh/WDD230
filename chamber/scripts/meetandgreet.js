@@ -18,8 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
     banner.style.display = "none";
   }
 
-const fake_date = new Date("November 20, 2023 11:13:00");
+// SIMULATE DIFFERENT DATE
+// const fake_date = new Date("November 20, 2023 11:13:00");
 
-  //overriding date function
-Date = function(){return fake_date;};
-const new_date = new Date();
+//   //overriding date function
+// Date = function(){return fake_date;};
+// const new_date = new Date();
