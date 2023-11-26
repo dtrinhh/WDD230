@@ -102,53 +102,34 @@ p {
 
 /* CURRENT EVENTS SETTINGS */
 .scrollingflexbox1 {
-    display: grid;
-    grid-template-columns: 32% 32% 32%;
-    grid-template-rows: 5em 1fr 1fr;
     padding: 1em;
     background: #78050a;
     color: #FFFFFF;
     box-shadow: 7px 7px 5px lightgray;
-    grid-column: 1 / 2;
-    grid-row: 1;
+    text-align: center;
+    font-size: 1.3em;
 }
 
 .scrollingheader1 {
     color: #FFFFFF;
     background-color: #78050a;
-    grid-row: 1;
-    grid-column: 2;
+    border-bottom: 1px solid #FFF;
 }
 
 .eventonename {
-    grid-column: 1;
-    grid-row: 3;
-
-}
-.eventoneimg {
-    grid-column: 1;
-    grid-row: 2;
+    padding: 20px;
+    /* font-size: 1.5em; */
 }
 
 .eventtwoname {
-    grid-column: 2;
-    grid-row: 3;
-
-}
-.eventtwoimg {
-    grid-column: 2;
-    grid-row: 2;
+    padding: 20px;
+    
 }
 
 .eventthreename {
-    grid-column: 3;
-    grid-row: 3;
+    padding: 20px;
+}
 
-}
-.eventthreeimg {
-    grid-column: 3;
-    grid-row: 2;
-}
 
 
 /* BUSINESS OF THE WEEK SETTINGS */
