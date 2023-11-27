@@ -154,6 +154,7 @@ p {
     grid-row: 1;
     grid-column: 2 / 3;
     border-bottom: 1px solid #FFF;
+    min-width: 100px;
 }
 
 .businessonename {
