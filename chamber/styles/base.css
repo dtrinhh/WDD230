@@ -114,20 +114,20 @@ p {
     color: #FFFFFF;
     background-color: #78050a;
     border-bottom: 1px solid #FFF;
+    width: fit-content;
+    margin: auto;
 }
 
 .eventonename {
-    padding: 20px;
-    /* font-size: 1.5em; */
+    padding: 25px;
 }
 
 .eventtwoname {
-    padding: 20px;
-    
+    padding: 25px;
 }
 
 .eventthreename {
-    padding: 20px;
+    padding: 25px;
 }
 
 
@@ -136,16 +136,16 @@ p {
 .scrollingflexbox2 {
     display: grid;
     grid-template-columns: 32% 32% 32%;
-    grid-template-rows: 5em 1fr 1fr;
+    grid-template-rows: 2em 10% 25%;
     padding: 1em;
     background: #78050a;
     color: #FFFFFF;
     box-shadow: 7px 7px 5px lightgray;
     grid-column: 2 / 5;
     grid-row: 1;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
-
+    font-size: 1.4em;
 }
 
 .scrollingheader2 {
@@ -153,51 +153,63 @@ p {
     background-color: #78050a;
     grid-row: 1;
     grid-column: 2 / 3;
+    border-bottom: 1px solid #FFF;
 }
 
 .businessonename {
     grid-column: 1;
-    grid-row: 3;
-
+    grid-row: 2;
+    text-align: center;
+    padding: 10px;
 }
 .businessoneimg {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
+    justify-self: center;
+    padding: 10px;
 }
 
 .businesstwoname {
     grid-column: 2;
-    grid-row: 3;
-
+    grid-row: 2;
+    text-align: center;
+    padding: 10px;
 }
 .businesstwoimg {
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 3;
+    justify-self: center;
+    padding: 10px;
 }
 
 .businessthreename {
     grid-column: 3;
-    grid-row: 3;
-
+    grid-row: 2;
+    text-align: center;
+    padding: 10px;
 }
 .businessthreeimg {
     grid-column: 3;
-    grid-row: 2;
+    grid-row: 3;
+    justify-self: center;
+    padding: 10px;
 }
 
 
 /* LOCAL FOODS SETTINGS */
 .scrollingflexbox3 {
     display: grid;
-    grid-template-columns: 32% 32% 32%;
-    grid-template-rows: 5em 1fr 1fr;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 2em 10% 25%;
     padding: 1em;
     background: #78050a;
     color: #FFFFFF;
     box-shadow: 7px 7px 5px lightgray;
     grid-column: 1 / 3;
     grid-row: 2;
-    /* width: 96%; */
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.4em;
 }
 
 .scrollingheader3 {
@@ -206,51 +218,48 @@ p {
     grid-column: 2;
     grid-row: 1;
     text-align: center;
+    border-bottom: 1px solid #FFF
 }
 
 .restaurantonename {
     grid-column: 1;
-    grid-row: 3;
-
+    grid-row: 2;
+    text-align: center;
+    padding: 10px 0px 10px 44%;
 }
 .restaurantoneimg {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
+    justify-self: center;
+    padding: 10px 0px 10px 50%;
 }
 
 .restauranttwoname {
-    grid-column: 2;
-    grid-row: 3;
-
+    grid-column: 3;
+    grid-row: 2;
+    /* text-align: center; */
+    padding: 10px 44% 10px 0px;
 }
 .restauranttwoimg {
-    grid-column: 2;
-    grid-row: 2;
-}
-
-.restaurantthreename {
     grid-column: 3;
     grid-row: 3;
+    justify-self: center;
+    padding: 10px 50% 10px 0px;
+}
 
-}
-.restaurantthreeimg {
-    grid-column: 3;
-    grid-row: 2;
-}
 
 /* WEATHER CARD SETTINGS */
 .scrollingflexbox4 {
     display: grid;
     grid-template-columns: 32% 32% 32%;
-    grid-template-rows: 5em 1fr;
+    grid-template-rows: 3em 1fr;
     padding: 1em;
     background: #78050a;
     color: #FFFFFF;
     box-shadow: 7px 7px 5px lightgray;
     grid-column: 3 / 5;
     grid-row: 2;
-    max-width: 93%;
-    margin: auto;
+    width: 100%;
 }
 
 .scrollingheader4 {
@@ -260,14 +269,14 @@ p {
     grid-row: 1;
     text-align: center;
     align-self: center;
+    border-bottom: 1px solid #FFF;
+    font-size: 2.1em;
 }
 
 .dayoneforecast {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 25% 25% 30% 20%;
-    /* height: 300px;
-    width: 300px; */
     border: 3px solid #FFFFFF;
     margin: 20px;
     text-align: center;
