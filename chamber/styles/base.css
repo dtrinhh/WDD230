@@ -468,97 +468,74 @@ p {
     text-decoration: none;
 }
 
-/* DISCOVER CSS */
+/* DISCOVER CSS */ 
+  
 .discovercontent {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 48% 48%;
+    column-gap: 10em;
+    row-gap: 25px;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    justify-items: end;
+}
+  
+  
+.greetingcontainer, .demographics, .statistical, .attractions, .events {
+    background-color: #78050a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 5px lightgray;
+    grid-column: 1;
+    width: 80%;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.4em;
 }
 
-.greeting {
-    border: 1px solid red;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+.greetingcontainer h1, .demographics h1, .statistical h1, .attractions h1, .events h1 {
+    border-bottom: 1px solid #FFF;
+    color: #FFF;
 }
-
-.demographics {
-    border: 1px solid red;
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-}
-
-.statistical {
-    border: 1px solid red;
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-}
-
-.attractions {
-    border: 1px solid red;
-    grid-column: 1 / 2;
-    grid-row: 4 / 5;
-}
-
-.events {
-    border: 1px solid red;
-    grid-column: 1 / 2;
-    grid-row: 5 / 6;
-}
-
-.calendar {
-    border: 1px solid red;
-    grid-column: 1 / 2;
-    grid-row: 6 / 7;
-}
-
-/* INIDIVIDUAL IMG POSITION CONTROL
-.img1 {
-    border: 1px solid red;
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-}
-.img2 {
-    border: 1px solid red;
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-}
-.img3 {
-    border: 1px solid red;
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-}
-.img4 {
-    border: 1px solid red;
-    grid-column: 2 / 3;
-    grid-row: 4 / 5;
-}
-.img5 {
-    border: 1px solid red;
-    grid-column: 2 / 3;
-    grid-row: 5 / 6;
-}
-.img6 {
-    border: 1px solid red;
-    grid-column: 2 / 3;
-    grid-row: 6 / 7;
-} */
 
 .discoverimg {
-    grid-column: 2 / 3;
-    grid-row: 1/ 7;
-    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    gap: 20px 20px 0px 20px;
+    grid-column: 2;
+    grid-row: 1 / 6;
+    justify-self: start;
+    align-items: center;
+    padding: 15px 15px 25px 15px;
+    background-color: #78050a;
+    border-radius: 8px;
 }
-.discoverimg :hover {
-    border: 1px solid blue;
-    box-shadow: 0 0 50px #000000;
+
+.discoverimg img:hover {
+    box-shadow: 0 0 40px lightgrey;
+}
+
+.discoverimg p {
+    color: #FFF;
+    text-align: center;
+    padding: 5px 0 25px 0;
+}
+
+.discoverimg h1 {
+    color: #FFF;
+    text-align: center;
+    border-bottom: 1px solid #FFF;
+}
+
+.discoverimg img {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 8px;
 }
 
 /* DIRECTORY CSS */
-
-
-/* WEATHER CARD SETTINGS */
-
-/* CURRENT DAY WEATHER SETTINGS */
 
  
 
