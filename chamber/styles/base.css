@@ -700,13 +700,10 @@ form input.submitbtn {
     margin: 0 auto;
 }
 
-.welcomenewmember {
+.welcomenewmember, .emailvalidation {
     text-align: center;
     margin: 0;
-}
-
-.emailvalidation {
-    text-align: center;
+    color: #FFF;
 }
 
 /* FOOTER SETTINGS */
