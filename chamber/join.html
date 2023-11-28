@@ -45,6 +45,7 @@
                     <legend>Applicant Information</legend>
                     <label class="top"> First Name* <input type="text" id="fname" name="fname" required=""></label>
                     <label class="top"> Last Name* <input type="text" id="lname" name="lname" required=""></label>
+                    <label class="top"> Phone Number* <input type="tel" id="phonenum" name="phonenum" placeholder="Only Numbers" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" minlength="10" maxlength="12" required=""></label>
                     <label class="top"> Title or Position <input type="text" id="title" name="title" pattern="[a-zA-Z-]" minlength="7"></label>
                     <label class="top"> Email* <input type="email" id="email" name="email" placeholder="someone@gmail.com" required=""><div data-lastpass-icon-root="true" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div></label>
                     <label class="top"> Organization Name* <input type="text" id="orgname" name="orgname" required=""></label>
@@ -62,6 +63,7 @@
                 <fieldset>
                     <legend>Business Description</legend>
                     <label class="top"> <div>Brief Description of Your Business</div> <textarea id="description" name="description" rows="5" cols="33"></textarea></label>
+                    <input type="hidden" name="timeStamp" id="timeStamp">
                 </fieldset>
                 <input type="submit" value="Become Member" class="submitBtn">
             </form>
