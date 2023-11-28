@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Dustin Trinh's WDD230 Chamber of Commerce Join Page">
+    <meta name="author" content="Dustin Trinh">
+    <meta property="og:title" content="Rose City Chamber of Commerce Join Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://unsplash.com/photos/k0VeQ6sXHGg">
+    <meta property="og:url" content="https://dtrinhh.github.io/wdd230/chamber/">
+    <link href="styles/base.css" rel="stylesheet" >
+    <link href="styles/medium.css" rel="stylesheet" >
+    <link href="styles/large.css" rel="stylesheet" >
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Inter:wght@300&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Rose City Chamber of Commerce Join Page</title>
+</head>
+<body>
+    <nav class="navbar">  
+        <a href="#"><img class="homelogo" src="images/companylogo.webp" ></img></a> 
+        <a href="#" class="hamburgerbtn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navlinks">    
+            <ul>
+                <li class="home"><a href="/chamber">Home</a></li>
+                <li class="discover"><a href="discover.html">Discover</a></li>
+                <li class="directory"><a href="directory.html">Directory</a></li>
+                <li class="join"><a href="join.html">Join</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="joincontainer">
+            <form class="memberform" method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="top"> First Name* <input type="text" id="fname" name="fname" required=""></label>
+                    <label class="top"> Last Name* <input type="text" id="lname" name="lname" required=""></label>
+                    <label class="top"> Title or Position <input type="text" id="title" name="title" pattern="[a-zA-Z-]" minlength="7"></label>
+                    <label class="top"> Email* <input type="email" id="email" name="email" placeholder="someone@gmail.com" required=""><div data-lastpass-icon-root="true" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div></label>
+                    <label class="top"> Organization Name* <input type="text" id="orgname" name="orgname" required=""></label>
+                </fieldset>
+            
+                <fieldset>
+                    <legend>Membership Tier</legend>
+                    <div>Membership</div>
+                        <label class="sbs"><input type="radio" id="membership" name="membership" value="np"> Non-Profit (Free) </label>
+                        <label class="sbs"><input type="radio" id="membership" name="membership" value="bronze"> Bronze </label>
+                        <label class="sbs"><input type="radio" id="membership" name="membership" value="silver"> Silver </label>
+                        <label class="sbs"><input type="radio" id="membership" name="membership" value="gold"> Gold </label>
+                </fieldset>
+            
+                <fieldset>
+                    <legend>Business Description</legend>
+                    <label class="top"> <div>Brief Description of Your Business</div> <textarea id="description" name="description" rows="5" cols="33"></textarea></label>
+                </fieldset>
+                <input type="submit" value="Become Member" class="submitBtn">
+            </form>
+
+            <div class="memlevelcontainer">
+                <div class="membership">
+                    <h1> Membership Levels </h1>
+                    <div class="tiers">
+                        <h2 id="npmember">Non-Profit (Free)</h2>
+                        <ul class="benefits">
+                            <li>All Non-profit benefits</li>
+                            <li>Exclusive access to training workshops</li>
+                            <li>Monthly newsletter subscription</li>
+                            <li>10% discount on all community events</li>
+                        </ul>
+                    </div>
+
+                    <div class="tiers">
+                        <h2 id="bronzemember">Bronze Membership ($99.99/year)</h2>
+                        <ul class="benefits">
+                            <li All Bronze Membership Benefits</li>
+                            <li>Access to community events</li>
+                            <li>Weekly newsletter subscription</li>
+                            <li>Networking opportunities</li>
+                        </ul>
+                    </div>
+
+                    <div class="tiers">
+                        <h2 id="silvermember">Silver Membership ($299.99/year)</h2>
+                        <ul class="benefits">
+                            <li>Access to personalized advertising space on the website</li>
+                            <li>Featured business spotlight on the home page</li>
+                            <li>Priority registration for special events</li>
+                        </ul>
+                    </div>
+
+                    <div class="tiers">
+                        <h2 id="goldmember">Gold Membership ($499.99/year)</h2>
+                        <ul class="benefits">
+                            <li>VIP access to exclusive events</li>
+                            <li>Unlimited admission to all community events</li>
+                            <li>20% discount on all advertising services</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Dustin Trinh | Contact us at notarealemail@rosecitycc.com | Chamber of Commerce Project for WDD 230 at BYUI | Last modified:<span id="lastmodified"></span>  
+        </p>
+    </footer>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/meetandgreet.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburgerbtn.js"></script>
+</body>
+</html>
