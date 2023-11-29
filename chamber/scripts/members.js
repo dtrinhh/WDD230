@@ -69,7 +69,7 @@ function createbusinesscards(obj) {
         const createlist = document.createElement("li");
         
         // ADDING BUSINESS NAME, IMG, AND URL TO ORGANIZATION 
-        const businessclass = "Businessname";
+        const businessclass = "businessname";
         const uniqueClass = `${businessclass}${i}`;
         createlist.classList.add(uniqueClass);
 
@@ -100,7 +100,7 @@ function createbusinesscards(obj) {
         const testing = testinformation.membership;
         const creatememlevel = document.createElement("li");
 
-        const membership = "Member";
+        const membership = "member";
         const testmembership = `${membership}${i}`;
         creatememlevel.classList.add(testmembership);
 
@@ -121,12 +121,10 @@ function createbusinesscards(obj) {
         
 
         for (const categoryname of categorynames) {
-            const ainfo = document.createElement("a");
-            ainfo.textContent = categoryname.industry;
+            createlist.textContent = categoryname.industry;
             
             // SEND TO PAGE AND SORT TO CORRECT SECTION
             categoryheading.appendChild(createlist);
-            createlist.appendChild(ainfo);
             dirpage.appendChild(memberinfo);
         }
     }
@@ -143,12 +141,10 @@ function createbusinesscards(obj) {
         
 
         for (const contactname of contactnames) {
-            const ainfo = document.createElement("a");
-            ainfo.textContent = contactname.phonenumber;
+            createlist.textContent = contactname.phonenumber;
             
             // SEND TO PAGE AND SORT TO CORRECT SECTION
             contactheading.appendChild(createlist);
-            createlist.appendChild(ainfo);
             dirpage.appendChild(memberinfo);
         }
        }
@@ -158,20 +154,17 @@ function createbusinesscards(obj) {
     const information = informations[i];
     const createlist = document.createElement("li");
     
-    const locationclass = "Location";
+    const locationclass = "location";
     const uniquelocation = `${locationclass}${i}`;
     createlist.classList.add(uniquelocation);
 
     const locationnames = information.location;
     
-
         for (const locationname of locationnames) {
-            const ainfo = document.createElement("a");
-            ainfo.textContent = locationname.address;
+            createlist.textContent = locationname.address;
             
             // SEND TO PAGE AND SORT TO CORRECT SECTION
             locationheading.appendChild(createlist);
-            createlist.appendChild(ainfo);
             dirpage.appendChild(memberinfo);
         }
        }
