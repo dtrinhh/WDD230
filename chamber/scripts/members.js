@@ -125,13 +125,56 @@ function createbusinesscards(obj) {
             ainfo.textContent = categoryname.industry;
             
             // SEND TO PAGE AND SORT TO CORRECT SECTION
-            orgheading.appendChild(createlist);
+            categoryheading.appendChild(createlist);
             createlist.appendChild(ainfo);
             dirpage.appendChild(memberinfo);
         }
-    
     }
+       // ADDING CONTACT
+    for (let i = 0; i < informations.length; i++) {
+    const information = informations[i];
+    const createlist = document.createElement("li");
+    
+    const contactclass = "contact";
+    const uniquecontact = `${contactclass}${i}`;
+    createlist.classList.add(uniquecontact);
 
+    const contactnames = information.contact;
+        
+
+        for (const contactname of contactnames) {
+            const ainfo = document.createElement("a");
+            ainfo.textContent = contactname.phonenumber;
+            
+            // SEND TO PAGE AND SORT TO CORRECT SECTION
+            contactheading.appendChild(createlist);
+            createlist.appendChild(ainfo);
+            dirpage.appendChild(memberinfo);
+        }
+       }
+
+       // ADDING LOCATION
+    for (let i = 0; i < informations.length; i++) {
+    const information = informations[i];
+    const createlist = document.createElement("li");
+    
+    const locationclass = "Location";
+    const uniquelocation = `${locationclass}${i}`;
+    createlist.classList.add(uniquelocation);
+
+    const locationnames = information.location;
+    
+
+        for (const locationname of locationnames) {
+            const ainfo = document.createElement("a");
+            ainfo.textContent = locationname.address;
+            
+            // SEND TO PAGE AND SORT TO CORRECT SECTION
+            locationheading.appendChild(createlist);
+            createlist.appendChild(ainfo);
+            dirpage.appendChild(memberinfo);
+        }
+       }
 }
 
 getmemberinfo();
