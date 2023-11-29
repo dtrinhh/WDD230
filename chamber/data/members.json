@@ -16,7 +16,7 @@
         ],
         "category" : [
             {
-                "industry" : "Appearal"
+                "industry" : "Food"
             }
         ],
         "contact" : [
@@ -63,7 +63,7 @@
  
             }
         ],
-        "membership" : "Platinum"
+        "membership" : "Silver"
     },
     {
         "dirheader" : "Directory",
@@ -95,7 +95,7 @@
 
             }
         ],
-        "membership" : "Diamond"
+        "membership" : "Gold"
     },
     {
         "dirheader" : "Directory",
@@ -112,7 +112,7 @@
         ],
         "category" : [
             {
-                "industry" : "Appearal"
+                "industry" : "Entertainment"
             }
         ],
         "contact" : [
@@ -127,7 +127,7 @@
 
             }
         ],
-        "membership" : "Gold"
+        "membership" : "Bronze"
     },
     {
         "dirheader" : "Directory",
@@ -144,7 +144,7 @@
         ],
         "category" : [
             {
-                "industry" : "Appearal"
+                "industry" : "Food"
             }
         ],
         "contact" : [
@@ -159,7 +159,7 @@
 
             }
         ],
-        "membership" : "Platinum"
+        "membership" : "NP"
     },
     {
         "dirheader" : "Directory",
@@ -176,7 +176,7 @@
         ],
         "category" : [
             {
-                "industry" : "Appearal"
+                "industry" : "Hospitality"
             }
         ],
         "contact" : [
@@ -191,7 +191,7 @@
 
             }
         ],
-        "membership" : "Diamond"
+        "membership" : "Silver"
     },
     {
         "dirheader" : "Directory",
@@ -208,7 +208,7 @@
         ],
         "category" : [
             {
-                "industry" : "Appearal"
+                "industry" : "Food"
             }
         ],
         "contact" : [
@@ -223,7 +223,7 @@
  
             }
         ],
-        "membership" : "Diamond"
+        "membership" : "NP"
     }
     ]
 }
