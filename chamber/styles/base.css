@@ -535,7 +535,17 @@ p {
     border-radius: 8px;
 }
 
-/* DIRECTORY CSS */
+/* DIRECTORY SETTINGS */
+.memberinfo {
+    width: 96%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    gap: 20px;
+}
+
+
 
  
 
@@ -567,8 +577,7 @@ p {
 
 /* JOIN SETTINGS */
 .joincontainer {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
