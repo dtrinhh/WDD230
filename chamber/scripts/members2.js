@@ -30,7 +30,7 @@ function createheadings(obj) {
     buname7.classList.add('buname7');
 
     buname1.textContent = obj.directory.organization[1];
-    buname1.textContent = obj.dirheader;
+    buname2.textContent = obj.dirheader;
 
     // orgheading.textContent = obj.orgheader;
     // levelheading.textContent = obj.levelheader;
@@ -38,7 +38,8 @@ function createheadings(obj) {
     // contactheading.textContent = obj.contactheader;
     // locationheading.textContent = obj.locationheader;
 
-    // dirpage.appendChild(buname1);    
+    dirpage.appendChild(buname1);    
+    dirpage.appendChild(buname2);    
     
     // dirpage.appendChild(orgheading);
     // dirpage.appendChild(levelheading);
