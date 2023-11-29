@@ -108,27 +108,12 @@ function createbusinesscards(obj) {
         levelheading.appendChild(creatememlevel);
     }
         // ADDING CATEGORY
-    // for (let i=0 ; i < informations.length; i++) {
-    //     const industry = informations[i];
-    //     const testing = industry.category;
-    //     const createcategory = document.createElement("li");
-
-    //     const category = "Category";
-    //     const testcategory = `${category}${i}`;
-    //     createcategory.classList.add(testcategory);
-
-    //     createcategory.textContent = testing;
-    //     categoryheading.appendChild(createcategory);
-    
-
-
-
     for (let i = 0; i < informations.length; i++) {
         const information = informations[i];
         const createlist = document.createElement("li");
         
         // ADDING BUSINESS NAME, IMG, AND URL TO ORGANIZATION 
-        const categoryclass = "Businessname";
+        const categoryclass = "category";
         const uniquecategory = `${categoryclass}${i}`;
         createlist.classList.add(uniquecategory);
 
@@ -144,7 +129,7 @@ function createbusinesscards(obj) {
             createlist.appendChild(ainfo);
             dirpage.appendChild(memberinfo);
         }
-        
+    
     }
 
 }
