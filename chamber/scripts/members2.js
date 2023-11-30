@@ -1,5 +1,5 @@
 const baseURL = "https://dtrinhh.github.io/wdd230/chamber";
-const linksURL = "https://dtrinhh.github.io/wdd230/chamber/data/members2.json";
+const linksURL = "https://dtrinhh.github.io/wdd230/chamber/data/members.json";
 
 async function getmemberinfo() {
     const response = await fetch(linksURL);
@@ -31,12 +31,6 @@ function createheadings(obj) {
 
     buname1.textContent = obj.directory.organization[1];
     buname2.textContent = obj.dirheader;
-
-    // orgheading.textContent = obj.orgheader;
-    // levelheading.textContent = obj.levelheader;
-    // categoryheading.textContent = obj.categoryheader;
-    // contactheading.textContent = obj.contactheader;
-    // locationheading.textContent = obj.locationheader;
 
     dirpage.appendChild(buname1);    
     dirpage.appendChild(buname2);    
