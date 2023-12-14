@@ -1,111 +1,111 @@
 {
-  "MaxRentalPricing": [
+  "maxRentalPricing": [
     {
-      "Type": "Reservation",
-      "RentalType": "~Honda Metro Scooter",
-      "MaxPersons": 1,
-      "Duration": {
+      "type": "Reservation",
+      "rentalType": "~Honda Metro Scooter",
+      "maxPersons": 1,
+      "duration": {
         "3hrs": "$20",
-        "FullDay": "$30"
+        "fullDay": "$30"
       }
     },
     {
-      "Type": "Walk-In",
-      "RentalType": "~Honda Metro Scooter",
-      "MaxPersons": 1,
-      "Duration": {
+      "type": "Walk-In",
+      "rentalType": "~Honda Metro Scooter",
+      "maxPersons": 1,
+      "duration": {
         "3hrs": "$25",
-        "FullDay": "$35"
+        "fullDay": "$35"
       }
     },
     {
-      "Type": "Reservation",
-      "RentalType": "~Honda Dio Scooter",
-      "MaxPersons": 2,
-      "Duration": {
+      "type": "Reservation",
+      "rentalType": "~Honda Dio Scooter",
+      "maxPersons": 2,
+      "duration": {
         "3hrs": "$30",
-        "FullDay": "$40"
+        "fullDay": "$40"
       }
     },
     {
-      "Type": "Walk-In",
-      "RentalType": "~Honda Dio Scooter",
-      "MaxPersons": 2,
-      "Duration": {
+      "type": "Walk-In",
+      "rentalType": "~Honda Dio Scooter",
+      "maxPersons": 2,
+      "duration": {
         "3hrs": "$35",
-        "FullDay": "$45"
+        "fullDay": "$45"
       }
     },
     {
-      "Type": "Reservation",
-      "RentalType": "~Honda PCX150 Scooter",
-      "MaxPersons": 2,
-      "Duration": {
+      "type": "Reservation",
+      "rentalType": "~Honda PCX150 Scooter",
+      "maxPersons": 2,
+      "duration": {
         "3hrs": "$40",
-        "FullDay": "$50"
+        "fullDay": "$50"
       }
     },
     {
-      "Type": "Walk-In",
-      "RentalType": "~Honda PCX150 Scooter",
-      "MaxPersons": 2,
-      "Duration": {
+      "type": "Walk-In",
+      "rentalType": "~Honda PCX150 Scooter",
+      "maxPersons": 2,
+      "duration": {
         "3hrs": "$45",
-        "FullDay": "$55"
+        "fullDay": "$55"
       }
     },
     {
-      "Type": "Reservation",
-      "RentalType": "Honda Pioneer ATV",
-      "MaxPersons": 4,
-      "Duration": {
+      "type": "Reservation",
+      "rentalType": "Honda Pioneer ATV",
+      "maxPersons": 4,
+      "duration": {
         "3hrs": "$50",
-        "FullDay": "$70"
+        "fullDay": "$70"
       }
     },
     {
-      "Type": "Walk-In",
-      "RentalType": "Honda Pioneer ATV",
-      "MaxPersons": 4,
-      "Duration": {
+      "type": "Walk-In",
+      "rentalType": "Honda Pioneer ATV",
+      "maxPersons": 4,
+      "duration": {
         "3hrs": "$60",
-        "FullDay": "$80"
+        "fullDay": "$80"
       }
     },
     {
-      "Type": "Reservation",
-      "RentalType": "Jeep Wrangler - 4 door with a/c",
-      "MaxPersons": 5,
-      "Duration": {
+      "type": "Reservation",
+      "rentalType": "Jeep Wrangler - 4 door with a/c",
+      "maxPersons": 5,
+      "duration": {
         "3hrs": "$70",
-        "FullDay": "$100"
+        "fullDay": "$100"
       }
     },
     {
-      "Type": "Walk-In",
-      "RentalType": "Jeep Wrangler - 4 door with a/c",
-      "MaxPersons": 5,
-      "Duration": {
+      "type": "Walk-In",
+      "rentalType": "Jeep Wrangler - 4 door with a/c",
+      "maxPersons": 5,
+      "duration": {
         "3hrs": "$85",
-        "FullDay": "$125"
+        "fullDay": "$125"
       }
     },
     {
-      "Type": "Reservation",
-      "RentalType": "Jeep Wrangler - 2 door",
-      "MaxPersons": 4,
-      "Duration": {
+      "type": "Reservation",
+      "rentalType": "Jeep Wrangler - 2 door",
+      "maxPersons": 4,
+      "duration": {
         "3hrs": "$60",
-        "FullDay": "$85"
+        "fullDay": "$85"
       }
     },
     {
-      "Type": "Walk-In",
-      "RentalType": "Jeep Wrangler - 2 door",
-      "MaxPersons": 4,
-      "Duration": {
+      "type": "Walk-In",
+      "rentalType": "Jeep Wrangler - 2 door",
+      "maxPersons": 4,
+      "duration": {
         "3hrs": "$70",
-        "FullDay": "$90"
+        "fullDay": "$90"
       }
     }
   ]
