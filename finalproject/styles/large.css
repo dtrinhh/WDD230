@@ -4,7 +4,7 @@
         font-size: 1.3rem;
     }
 
-    
+
     
     /* NAV SETTINGS */
     .contentSplit {
@@ -35,5 +35,21 @@
         border-bottom: 3px solid var(--clr-secondary);
     }
 
+    /* HERO SETTINGS */
+    .getstartedbtn {
+        position: relative;
+        /* width: 15%; */
+        border: 3px solid #FFF;
+        padding: 1rem;
+        bottom: 30rem;
+        left: 10rem;
+        font-size: 1.5em;
+        font-weight: 600;
+        color: var(--clr-secondary);
+        text-align: center;
+        background: #FFF;
+        border-radius: 64px;
+        text-decoration: none;
+    }
 
 }

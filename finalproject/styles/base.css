@@ -42,6 +42,21 @@ section {
     max-width: 70.5rem;
 }
 
+.banner {
+    /* background-color: var(--clr-accent); */
+    background-color: var(--clr-primary);
+    box-shadow: 7px 5px 10px var(--clr-secondary);
+    /* border-radius: ; */
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.closebanner, .highTemp {
+    margin-left: 1rem;
+}
+
+
 img, .social {
     display: block;
     max-width: 100%;
@@ -51,6 +66,40 @@ img, .social {
 /* .heroImg {
     min-width: 10%;
 } */
+
+/* .getstartedbtn {
+    position: absolute;
+    width: 15%;
+    border: 3px solid #FFF;
+    padding: 1.5vw;
+    bottom: 32%;
+    left: 40%;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    background: #FFF;
+    border-radius: 64px;
+    text-decoration: none;
+} */
+
+
+.getstartedbtn {
+    position: relative;
+    /* width: 15%; */
+    border: 3px solid #FFF;
+    padding: 1rem;
+    bottom: 13rem;
+    left: 2rem;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--clr-secondary);
+    text-align: center;
+    background: #FFF;
+    border-radius: 64px;
+    text-decoration: none;
+}
+
 
 .contentSplit {
     display: flex;
