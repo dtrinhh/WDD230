@@ -36,20 +36,16 @@
     }
 
     /* HERO SETTINGS */
+    
     .getstartedbtn {
-        position: relative;
-        /* width: 15%; */
-        border: 3px solid #FFF;
-        padding: 1rem;
-        bottom: 30rem;
-        left: 10rem;
-        font-size: 1.5em;
-        font-weight: 600;
-        color: var(--clr-secondary);
-        text-align: center;
-        background: #FFF;
-        border-radius: 64px;
-        text-decoration: none;
+        bottom: 20rem;
+        font-size: 1.4em;
+    }
+
+    .greeting {
+        top: 11rem;
+        left: 1.5rem;
+        font-size: 1.8em;
     }
 
 }
