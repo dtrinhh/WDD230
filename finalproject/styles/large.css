@@ -1,0 +1,37 @@
+@media (min-width: 40em) {
+    /* BODY SETTINGS */
+    body {
+        font-size: 1.3rem;
+    }
+    
+    /* NAV SETTINGS */
+    .contentSplit {
+        flex-direction: row;
+    }
+
+    .contentSplit > * {
+        flex-basis: 100%;
+    }
+
+    div {
+        gap: 1rem;
+    }
+
+    .navlinks li a {
+        padding: 2rem .5rem;
+        color: var(--clr-secondary);
+        font-size: 1.1em;
+    } 
+    
+    .shopName {
+        font-size: 3em;
+        margin: auto;
+        padding: 0;
+    }
+
+    .navlinks li:hover {
+        border-bottom: 3px solid var(--clr-secondary);
+    }
+
+
+}

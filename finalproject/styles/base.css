@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-primary: #FFF;
+    --clr-secondary: #171717;
+    --clr-accent: #ebebeb;
+
+    --ff-primary: 'Rubik', sans-serif;
+    --ff-secondary: 'Balthazar', serif;
+    --ff-accent: 'BioRhyme', serif;      
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: var(--ff-accent);
+    color: var(--clr-secondary);
+    font-weight: 800;
+}
+
+h2, h3, p {
+    margin-bottom: 1em;
+}
+
+section {
+    padding: 4rem;
+    border: 1px solid #000;
+}
+
+.container {
+    margin: 0 auto;
+    min-width: 90%;
+    max-width: 70.5rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    padding-bottom: 1em;
+}
+
+.contentSplit {
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAV SETTINGS */
+header {
+    padding: 2rem 0;
+    background-color: var(--clr-accent);
+    font-family: var(--ff-secondary);
+}
+
+.homelogo {
+    padding: 0;
+}
+
+.navbar, .navlinks ul, .navlinks li a {
+    background-color: var(--clr-primary);
+    font-family: var(--ff-secondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navlinks li a {
+    padding: 1rem .5rem;
+    color: var(--clr-secondary);
+    font-size: .9em;
+} 
+
+.shopName {
+    font-size: 1.7em;
+    margin: auto;
+    padding: 0;
+}
+
+.navlinks li:hover {
+    border-bottom: 3px solid var(--clr-secondary);
+}
+
+/* SOCIAL MEDIA SECTION */
+ .mediaLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+ }

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Dustin Trinh's WDD230 Final Project">
+    <meta name="author" content="Dustin Trinh">
+    <meta property="og:title" content="Scoots Motor Scooter Rental Company">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdn.pixabay.com/photo/2019/02/27/22/43/scooter-4025114_1280.jpg">
+    <meta property="og:url" content="https://dtrinhh.github.io/wdd230/finalproject/">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balthazar&family=BioRhyme:wght@500&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Scoots Motor Scooter Rental Company</title>
+</head>
+<header>
+    <nav class="navbar">  
+        <a href="#"><img class="homelogo" src="images/scooterhomelogo.webp"></img></a>
+        <!-- TESTING OUT IF THIS CAN LOOK GOOD TO FILL IN THE WHITE SPACE -->
+        <p class="shopName">Scoots</p>
+        <div class="navlinks">    
+            <ul>
+                <li class="home"><a href="/finalproject">Home</a></li>
+                <li class="rentals"><a href="rentals.html">Rentals</a></li>
+                <li class="reservations"><a href="reservations.html">Reservations</a></li>
+                <li class="contact"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<body>
+    <div class="banner">
+        <span class="closebanner" onclick="closebanner()">𝗫</span>
+        <br>
+        <p class="highTemp">The hottest temperature(F) of today is </p>
+    </div>
+    <section>
+        <div class="heroImageContainer">
+            <h1>Lorem ipsum dolor sit.</h1>
+            <img src="https://dummyimage.com/600x400/000/fff.jpg&text=Hero+Image+Filler">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, temporibus nam molestias perferendis explicabo nemo soluta magni doloremque aliquid non mollitia, officiis culpa alias deserunt!</p>
+        </div>
+    </section>
+    <!-- CONTACT US SECTION W/ PHYSICAL ADDRESS AND PHONE# PER LOCATION  -->
+    <section class="contactUs">
+        <div class="container">
+            <h2>Lorem ipsum dolor sit.</h2>
+            <div class="contentSplit">
+                <div>
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, temporibus nam molestias perferendis explicabo nemo soluta magni doloremque aliquid non mollitia, officiis culpa alias deserunt!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, temporibus nam molestias perferendis explicabo nemo soluta magni doloremque aliquid non mollitia, officiis culpa alias deserunt!</p>
+                </div>
+                <div>
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, temporibus nam molestias perferendis explicabo nemo soluta magni doloremque aliquid non mollitia, officiis culpa alias deserunt!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, temporibus nam molestias perferendis explicabo nemo soluta magni doloremque aliquid non mollitia, officiis culpa alias deserunt!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SUMMARY OF SCOOTER TYPES W/ NICKNAME, IMAGE, AND FUN DESCRIPTION -->
+    <section class="scooterSummary">
+        <div class="container">
+            <h2>Lorem ipsum dolor sit.</h2>
+            <div class="contentSplit">
+                <div>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <img src="https://dummyimage.com/200x200/000/fff.jpg&text=Scooter+Type+Img+Filler">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, temporibus nam molestias perferendis explicabo nemo soluta magni doloremque aliquid non mollitia, officiis culpa alias deserunt!</p>
+                </div>
+                <div>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <img src="https://dummyimage.com/200x200/000/fff.jpg&text=Scooter+Type+Img+Filler">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, temporibus nam molestias perferendis explicabo nemo soluta magni doloremque aliquid non mollitia, officiis culpa alias deserunt!</p>
+                </div>
+                <div>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <img src="https://dummyimage.com/200x200/000/fff.jpg&text=Scooter+Type+Img+Filler">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, temporibus nam molestias perferendis explicabo nemo soluta magni doloremque aliquid non mollitia, officiis culpa alias deserunt!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- WEATHER SECTION W/ ICON on left, all information on right and next days temp.  -->
+    <section class="weatherForecast">
+        <div class="container">
+            <h2>Lorem ipsum dolor sit.</h2> 
+            <div class="contentSplit">
+                <div class="currentforecast">
+                    <h3>Today</h3>
+                    <p class="currentday"></p>
+                    <img class="weathericon" src="." alt="weather image">
+                    <p class="weatherdesc">Todays weather consist of </p>
+                    <p class="currentTemp"> Temperatures(F) at  </p>
+                    <p class="secondHumidity">Humidity Level of </p>
+                    <!-- <p class="currenthightemp"></p> -->
+                </div>
+                <div>
+                    <h3> Tomorrow</h3>
+                    <p class="dayTwoTemp">Forecasted temperature(F) at 15:00 will be </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SOCIAL MEDIA SECTION -->
+    <footer>
+        <section class="socialMedia">
+            <div class="container">
+                <h2>Lorem ipsum dolor sit.</h2>
+                <div class="contentSplit mediaLinks">
+                    <div>
+                        <img src="https://dummyimage.com/200x200/000/fff.jpg&text=Facebook+Icon+Filler">
+                    </div>
+                    <div>
+                        <img src="https://dummyimage.com/200x200/000/fff.jpg&text=Instagram+Icon+Filler">
+                    </div>
+                    <div>
+                        <img src="https://dummyimage.com/200x200/000/fff.jpg&text=Twitter (X)+Icon+Filler">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="scripts/forecast.js"></script>
+</body>
+</html>
