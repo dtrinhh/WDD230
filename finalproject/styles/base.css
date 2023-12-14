@@ -31,9 +31,14 @@ h2, h3, p {
     margin-bottom: 1em;
 }
 
+h2 {
+
+    border-bottom:1px solid var(--clr-accent);
+}
+
 section {
     padding: 4rem;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 
 .container {
