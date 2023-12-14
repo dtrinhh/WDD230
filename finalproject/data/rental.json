@@ -1,0 +1,112 @@
+{
+  "MaxRentalPricing": [
+    {
+      "Type": "Reservation",
+      "RentalType": "~Honda Metro Scooter",
+      "MaxPersons": 1,
+      "Duration": {
+        "3hrs": "$20",
+        "FullDay": "$30"
+      }
+    },
+    {
+      "Type": "Walk-In",
+      "RentalType": "~Honda Metro Scooter",
+      "MaxPersons": 1,
+      "Duration": {
+        "3hrs": "$25",
+        "FullDay": "$35"
+      }
+    },
+    {
+      "Type": "Reservation",
+      "RentalType": "~Honda Dio Scooter",
+      "MaxPersons": 2,
+      "Duration": {
+        "3hrs": "$30",
+        "FullDay": "$40"
+      }
+    },
+    {
+      "Type": "Walk-In",
+      "RentalType": "~Honda Dio Scooter",
+      "MaxPersons": 2,
+      "Duration": {
+        "3hrs": "$35",
+        "FullDay": "$45"
+      }
+    },
+    {
+      "Type": "Reservation",
+      "RentalType": "~Honda PCX150 Scooter",
+      "MaxPersons": 2,
+      "Duration": {
+        "3hrs": "$40",
+        "FullDay": "$50"
+      }
+    },
+    {
+      "Type": "Walk-In",
+      "RentalType": "~Honda PCX150 Scooter",
+      "MaxPersons": 2,
+      "Duration": {
+        "3hrs": "$45",
+        "FullDay": "$55"
+      }
+    },
+    {
+      "Type": "Reservation",
+      "RentalType": "Honda Pioneer ATV",
+      "MaxPersons": 4,
+      "Duration": {
+        "3hrs": "$50",
+        "FullDay": "$70"
+      }
+    },
+    {
+      "Type": "Walk-In",
+      "RentalType": "Honda Pioneer ATV",
+      "MaxPersons": 4,
+      "Duration": {
+        "3hrs": "$60",
+        "FullDay": "$80"
+      }
+    },
+    {
+      "Type": "Reservation",
+      "RentalType": "Jeep Wrangler - 4 door with a/c",
+      "MaxPersons": 5,
+      "Duration": {
+        "3hrs": "$70",
+        "FullDay": "$100"
+      }
+    },
+    {
+      "Type": "Walk-In",
+      "RentalType": "Jeep Wrangler - 4 door with a/c",
+      "MaxPersons": 5,
+      "Duration": {
+        "3hrs": "$85",
+        "FullDay": "$125"
+      }
+    },
+    {
+      "Type": "Reservation",
+      "RentalType": "Jeep Wrangler - 2 door",
+      "MaxPersons": 4,
+      "Duration": {
+        "3hrs": "$60",
+        "FullDay": "$85"
+      }
+    },
+    {
+      "Type": "Walk-In",
+      "RentalType": "Jeep Wrangler - 2 door",
+      "MaxPersons": 4,
+      "Duration": {
+        "3hrs": "$70",
+        "FullDay": "$90"
+      }
+    }
+  ]
+}
