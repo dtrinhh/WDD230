@@ -48,6 +48,10 @@ img, .social {
     padding-bottom: 1em;
 }
 
+/* .heroImg {
+    min-width: 10%;
+} */
+
 .contentSplit {
     display: flex;
     flex-direction: column;
