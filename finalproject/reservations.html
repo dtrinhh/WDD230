@@ -68,7 +68,7 @@
       <button id="acknowledgeButton" onclick="closePopup()">Acknowledge</button>
     </div>
     <section>
-      <form class="rentalForm">
+      <form method="get" action="rentalConfirmation.html" class="rentalForm">
         <h2>Rental Agreement Information</h2>
         <label for="date">Date:</label>
         <input type="date" id="date" name="date" min="2023-12-15" required />
@@ -109,7 +109,7 @@
 
         <h2>Renter Details</h2>
         <label for="fName">First Name:</label>
-        <input type="text" id="fName" name="fName" pattern="[A-Za-z]" required />
+        <input type="text" id="fName" name="fName" required />
         
         <label for="lName">Last Name:</label>
         <input type="text" id="lName" name="lName" required />
