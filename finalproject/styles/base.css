@@ -142,7 +142,7 @@ header {
  }
 
 
- /* RENTALS CSS SECTION  */
+ /* RENTALS CSS/ CONTACT US SECTION  */
 table {
     border-collapse: collapse;
     width: 95%;
@@ -161,11 +161,16 @@ td {
     font-family: var(--ff-secondary);
 }
 
+iframe {
+    padding-bottom: 2rem;
+}
+
 .topHeader {
     background-color: blue;
     color: #FFF;
 }
 
-.tableSmall {
+.tableSmall, .contactSection {
     overflow-x: auto;
 }
+

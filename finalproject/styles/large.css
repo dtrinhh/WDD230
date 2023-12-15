@@ -4,7 +4,10 @@
         font-size: 1.3rem;
     }
 
-
+    /* CONTACT PAGE CSS */
+    .contactSection {
+        flex-direction: row;
+    }
     
     /* NAV SETTINGS */
     .contentSplit {
