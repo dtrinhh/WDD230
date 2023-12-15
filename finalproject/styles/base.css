@@ -241,3 +241,7 @@ iframe {
     min-width: 6rem;
     align-self: end;
 }
+
+.weathericon {
+    width: 100px;
+}
