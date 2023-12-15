@@ -1,84 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Dustin Trinh's WDD230 Final Project" />
+    <meta name="author" content="Dustin Trinh" />
+    <meta property="og:title" content="Scoots Motor Scooter Rental Company" />
+    <meta property="og:type" content="website" />
     <meta
-      name="description"
-      content="Dustin Trinh's WDD230 Final Project">
-    <meta name="author" content="Dustin Trinh">
-    <meta property="og:title" content="Scoots Motor Scooter Rental Company">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://cdn.pixabay.com/photo/2019/02/27/22/43/scooter-4025114_1280.jpg">
-    <meta property="og:url" content="https://dtrinhh.github.io/wdd230/finalproject/">
-    <link href="styles/normalize.css" rel="stylesheet">
-    <link href="styles/base.css" rel="stylesheet">
-    <link href="styles/large.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Balthazar&family=BioRhyme:wght@500&family=Rubik&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/favicon.ico">
+      property="og:image"
+      content="https://cdn.pixabay.com/photo/2019/02/27/22/43/scooter-4025114_1280.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://dtrinhh.github.io/wdd230/finalproject/"
+    />
+    <link href="styles/normalize.css" rel="stylesheet" />
+    <link href="styles/base.css" rel="stylesheet" />
+    <link href="styles/large.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balthazar&family=BioRhyme:wght@500&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon.ico" />
     <title>Scoots Motor Scooter Rental Company Rental Page</title>
-</head>
-<header>
-    <nav class="navbar">  
-        <a href="/finalproject"><img class="homelogo" src="images/scooterhomelogo.webp" loading="lazy"></img></a>
-        <!-- TESTING OUT IF THIS CAN LOOK GOOD TO FILL IN THE WHITE SPACE -->
-        <p class="shopName">Scoots</p>
-        <div class="navlinks">    
-            <ul>
-                <li class="home"><a href="/finalproject">Home</a></li>
-                <li class="rentals"><a href="rentals.html">Rentals</a></li>
-                <li class="reservations"><a href="reservations.html">Reservations</a></li>
-                <li class="contact"><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
+  </head>
+  <header>
+    <nav class="navbar">
+      <a href="/finalproject"
+        ><img class="homelogo" src="images/scooterhomelogo.webp" loading="lazy"
+      /></a>
+      <!-- TESTING OUT IF THIS CAN LOOK GOOD TO FILL IN THE WHITE SPACE -->
+      <p class="shopName">Scoots</p>
+      <div class="navlinks">
+        <ul>
+          <li class="home"><a href="/finalproject">Home</a></li>
+          <li class="rentals"><a href="rentals.html">Rentals</a></li>
+          <li class="reservations">
+            <a href="reservations.html">Reservations</a>
+          </li>
+          <li class="contact"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </nav>
-</header>
-<body>
-    <body>
+  </header>
+  <body>
+    <div id="popup">
+      <div id="closeButton" onclick="closePopup()">x</div>
+      <h2 class="agreement">Rental Services and Agreements</h2>
+      <p class="agreementContent">
+        1. A $50 security deposit is required to confirm reservations.<br />
+        2. A valid driver's license is required in hand at the time of
+        rental.<br />
+        3. No one under the age of 12 years of age is allowed to ride on the
+        scooters.<br />
+        4. Fuel charge is not included.<br />
+        5. Unlimited mileage.<br />
+        6. Liability insurance is included.<br />
+        7. Damage insurance is available for purchase.<br />
+        8. Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.<br />
+        9. Payment via Google Pay, Apple Pay, cash, credit card, debit card, or
+        Venmo.<br />
+        10. Rentals may be returned to either physical location.
+      </p>
+      <button id="acknowledgeButton" onclick="closePopup()">Acknowledge</button>
+    </div>
+    <section>
+      <form class="rentalForm">
+        <h2>Rental Agreement Information</h2>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" min="2023-12-15" required />
 
-        <div id="popup">
-            <div id="closeButton" onclick="closePopup()">x</div>
-            <h2 class="agreement">Rental Services and Agreements</h2>
-            <p class="agreementContent">
-              1. A $50 security deposit is required to confirm reservations.<br>
-              2. A valid driver's license is required in hand at the time of rental.<br>
-              3. No one under the age of 12 years of age is allowed to ride on the scooters.<br>
-              4. Fuel charge is not included.<br>
-              5. Unlimited mileage.<br>
-              6. Liability insurance is included.<br>
-              7. Damage insurance is available for purchase.<br>
-              8. Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.<br>
-              9. Payment via Google Pay, Apple Pay, cash, credit card, debit card, or Venmo.<br>
-              10. Rentals may be returned to either physical location.
-            </p>
-            <button id="acknowledgeButton" onclick="closePopup()">Acknowledge</button>
-        </div>
+        <label for="duration">Duration:</label>
+        <select id="duration" name="duration" required>
+          <option value="default"></option>
+          <option value="halfDay">Half Day (3 hrs)</option>
+          <option value="fullDay">Full Day</option>
+        </select>
 
-        <section>
-            
-        </section>
+        <label for="rentalType">Rental Type:</label>
+        <select id="rentalType" name="rentalType" required>
+          <option value="default"></option>
+          <option value="Honda Metro Scooter">Honda Metro Scooter</option>
+          <option value="Honda Dio Scooter">Honda Dio Scooter</option>
+          <option value="Honda PCX150 Scooter">Honda PCX150 Scooter</option>
+          <option value="Honda Pioneer ATV">Honda Pioneer ATV</option>
+          <option value="Jeep Wrangler - 4 door with a/c">
+            Jeep Wrangler - 4 door with a/c
+          </option>
+          <option value="Jeep Wrangler - 2 door">Jeep Wrangler - 2 door</option>
+        </select>
+
+        <label for="number"
+          >Number of Passengers:
+          <input type="radio" id="number" name="number" value="One" />
+          <label for="number">One</label>
+          <input type="radio" id="number" name="number" value="Two" />
+          <label for="number">Two</label>
+          <input type="radio" id="number" name="number" value="Three" />
+          <label for="number">Three</label>
+          <input type="radio" id="number" name="number" value="Four" />
+          <label for="number">Four</label>
+          <input type="radio" id="number" name="number" value="Five" />
+          <label for="number">Five</label>
+        </label>
+
+        <h2>Renter Details</h2>
+        <label for="fName">First Name:</label>
+        <input type="text" id="fName" name="fName" pattern="[A-Za-z]" required />
         
+        <label for="lName">Last Name:</label>
+        <input type="text" id="lName" name="lName" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="someone@gmail.com" required />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Only Numbers" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" minlength="10" maxlength="12" required />
+
+        <label for="homeLocation">Home State or Country:</label>
+        <input type="text" id="homeLocation" name="homeLocation" placeholder="US"/>
+
+        <h2>Cruise Details (if applicable)</h2>
+        <label for="cruiseLine">Cruise Line:</label>
+        <input type="text" id="cruiseLine" name="cruiseLine" />
+
+        <h2>Special Request</h2>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+
+        <br />
+
+        <button class="reserveFunBtn" type="submit">Reserve the FUN!</button>
+      </form>
+    </section>
+
     <!-- SOCIAL MEDIA SECTION -->
     <footer>
-        <section class="socialMedia">
-            <div class="container">
-                <h2>Follow us on Social Media</h2>
-                <div class="contentSplit mediaLinks">
-                    <div>
-                        <a href="https://www.facebook.com/"> <img src="images/facebook-2429746_640.webp" alt="facebook logo" loading="lazy"></a>
-                    </div>
-                    <div>
-                        <a href="https://www.instagram.com/"><img src="images/instagram-1675670_640.webp" alt="instagram logo" loading="lazy"></a>
-                    </div>
-                    <div>
-                        <a href="https://twitter.com/i/flow/login"><img src="images/labels-8193318_640.webp" alt="twitter (X) logo" loading="lazy"></a>
-                    </div>
-                </div>
+      <section class="socialMedia">
+        <div class="container">
+          <h2>Follow us on Social Media</h2>
+          <div class="contentSplit mediaLinks">
+            <div>
+              <a href="https://www.facebook.com/">
+                <img
+                  src="images/facebook-2429746_640.webp"
+                  alt="facebook logo"
+                  loading="lazy"
+              /></a>
             </div>
-        </section>
+            <div>
+              <a href="https://www.instagram.com/"
+                ><img
+                  src="images/instagram-1675670_640.webp"
+                  alt="instagram logo"
+                  loading="lazy"
+              /></a>
+            </div>
+            <div>
+              <a href="https://twitter.com/i/flow/login"
+                ><img
+                  src="images/labels-8193318_640.webp"
+                  alt="twitter (X) logo"
+                  loading="lazy"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
     </footer>
     <script src="scripts/contract.js"></script>
-</body>
+  </body>
 </html>

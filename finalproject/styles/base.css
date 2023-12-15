@@ -174,7 +174,7 @@ iframe {
     overflow-x: auto;
 }
 
-/* RESERVATION POPUP SETTINGS */
+/* RESERVATION SETTINGS */
 .agreement {
     color: #FFF;
 }
@@ -213,3 +213,28 @@ iframe {
     border: none;
     border-radius: 5px;
   }
+
+.rentalForm {
+    overflow-x: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--clr-accent);
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+}
+
+.rentalForm h2 {
+    padding: 3rem 0 0 0;
+}
+
+.reserveFunBtn {
+    background-color: Green;
+    color: #fff;
+    padding: .4rem;
+    border: none;
+    border-radius: 5px;
+    max-width: 10rem;
+    min-width: 6rem;
+    align-self: end;
+}
