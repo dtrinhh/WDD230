@@ -162,7 +162,8 @@ td {
 }
 
 iframe {
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 5px var(--clr-secondary);
 }
 
 .topHeader {
@@ -220,8 +221,9 @@ iframe {
     flex-direction: column;
     background-color: var(--clr-accent);
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
     padding: 1rem 1.5rem;
+    box-shadow: 2px 2px 5px var(--clr-secondary);
 }
 
 .rentalForm h2 {
