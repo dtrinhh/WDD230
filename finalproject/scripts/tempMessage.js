@@ -1,4 +1,3 @@
-// DISPLAY BANNER
 document.addEventListener("DOMContentLoaded", function () {
   weatherFetch(); 
 });

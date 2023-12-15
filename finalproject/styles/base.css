@@ -174,3 +174,42 @@ iframe {
     overflow-x: auto;
 }
 
+/* RESERVATION POPUP SETTINGS */
+.agreement {
+    color: #FFF;
+}
+
+.agreementContent {
+    max-height: 50%;
+}
+
+#popup {
+    display: flex;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    padding: 2.5rem;
+    color: #FFF;
+    background-color: var(--clr-secondary);
+    box-shadow: 10px 10px 20px var(--clr-accent);
+    width: 90%;
+    max-height: 80%;
+    overflow-y: auto;
+  }
+
+#closeButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+
+#acknowledgeButton {
+    position: sticky;
+    top: 10px;
+    right: 10px;
+    background-color: green;
+    color: #fff;
+    padding: .4rem;
+    border: none;
+    border-radius: 5px;
+  }
