@@ -140,3 +140,32 @@ header {
     flex-direction: row;
     gap: 1em;
  }
+
+
+ /* RENTALS CSS SECTION  */
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 1rem auto;
+    font-family: var(--ff-primary);
+  }
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    background-color: var(--clr-accent);
+  }
+
+td {
+    font-family: var(--ff-secondary);
+}
+
+.topHeader {
+    background-color: blue;
+    color: #FFF;
+}
+
+.tableSmall {
+    overflow-x: auto;
+}
